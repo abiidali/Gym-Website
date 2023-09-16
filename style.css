@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300&family=Raleway:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background: url(./fitness-1882721_640.jpg);
+    background-size: cover;
+    object-fit: contain;
+}
+
+    /* Nav Bar Logo  */
+
+nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.logo img{
+    filter: invert();
+    width: 50px;
+    margin: 10px 30px;
+}
+
+.logo p{
+    text-align: center;
+    color: #fa3a00 !important;
+}
+
+nav ul{
+    display: flex;
+    margin: 12px auto;
+    justify-content: center;
+    gap: 50px;
+}
+nav ul li{
+    display: block;
+    cursor: pointer;
+    list-style: none;
+    margin: 10px 5px;
+    font-size: 20px;
+}
+nav ul li:hover, nav ul li a.active{
+    color: red;
+    text-decoration: underline ;
+}
+
+    /* buttons */
+.buttons{
+    display: flex;
+}
+.buttons button{
+    float: right;
+    width: 100%;
+    background: transparent;
+    border-radius: 15px;
+    padding: 10px 25px;
+    margin-right: 10px;
+}
+.buttons button a{
+    cursor: pointer;
+    color:white;
+}
+.buttons button:hover a{
+    color:red;
+    background: black;
+}
+
+    /* Body Section  */
+
+.BodyContainer{
+    width: 46%;
+    margin-top: 100px;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 30px;
+}
+.Heading{
+    margin-bottom: 25px;
+}
+
+.GymInput{
+    display: flex;
+    flex-direction: column;
+}
+.GymInput input{
+    padding: 10px 70px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 15px;
+    color: red;
+    background: black;
+}
+.BodyContainer button{
+    display: block;
+    width: 65%;
+    margin: auto;
+    color: white;
+    background: black;
+    padding: 10px 70px;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.BodyContainer button:hover{
+    color: red;
+}
+marquee{
+    color: red;
+    margin-top: 40px;
+}
